@@ -1,0 +1,23 @@
+{
+  "name": "widget/basket",
+  "description": "widget basket",
+  "minimum-stability": "stable",
+  "version": "1.0.0",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Widget\\Basket\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
