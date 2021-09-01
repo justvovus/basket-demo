@@ -5,13 +5,13 @@ In PHP 8.1 some code can be simplified using readonly class properties.
 
 I assumed that the basket may have multiple special offers being applicable, but only one delivery strategy being selected.
 
-###How to test:
+### How to test:
 ```php
 composer install
 ./vendor/bin/phpunit ./tests/
 ```
 
-###Use as dependency with composer
+### Use as dependency with composer
 Append your project's composer.json "require" and "repositories" following this example:
 ```json
 {
